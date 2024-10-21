@@ -1,0 +1,37 @@
+<!--
+Alicia (Bruno) Taiwo da silva Montesano Nº02
+Diego Souza Horvate Nº06 
+Edgar Lodula de Assis Nº07
+Tales Costa Caetano Silva Nº32 
+
+3°A
+-->
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ordena numero</title>
+    <link rel="stylesheet" href="style.css"> 
+    <script src="script.js" defer></script> 
+</head>
+<body>
+  
+    <div class="container">
+        <h1>Formulário de ordenação numérica </h1>
+        <form >
+            <input type="text" id="num" placeholder="Insira um número inteiro" required>
+            <input type="submit" id="inserir" value="Inserir" onclick="teste()">
+            <input type="submit" id="ordenar" value="Ordenar" onclick="ordenarNumeros(array)">
+        </form>
+        <div>
+            <label>Lista Original: </label>
+            <div id="listaNumeros"></div>
+        </div>
+        <div>
+            <label>Lista Ordenada: </label>
+            <div id="listaOrdenada"></div>
+        </div>
+    </div>
+</body>
+</html>
